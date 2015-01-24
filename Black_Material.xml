@@ -2,6 +2,7 @@
 <manifest>
   <!--remove-->
   <remove-project name="AndroidOpenDevelopment/android_frameworks_base" />
+  <remove-project name="AndroidOpenDevelopment/android_frameworks_opt_telephony" />
   <remove-project name="AndroidOpenDevelopment/android_packages_apps_Contacts" />
   <remove-project name="AndroidOpenDevelopment/android_packages_apps_ContactsCommon" />
   <remove-project name="AndroidOpenDevelopment/android_packages_apps_Dialer" />
@@ -9,15 +10,17 @@
   <remove-project name="AndroidOpenDevelopment/android_packages_apps_PhoneCommon" />
   <remove-project name="AndroidOpenDevelopment/android_packages_apps_Settings" />
   <remove-project name="AndroidOpenDevelopment/android_packages_services_Telephony" />
+  <remove-project name="AndroidOpenDevelopment/android_vendor_aod" />
 
   <!--packages-->
-  <project path="frameworks/base" name="nobe1976/android_frameworks_base" remote="git" revision="5.0" />
+  <project path="frameworks/base" name="nobe1976/android_frameworks_base" remote="git" revision="lp-Dark" />
+  <project path="frameworks/opt/telephony" name="nobe1976/android_frameworks_opt_telephony" remote="git" revision="5.0" />
   <project path="packages/apps/Contacts" name="nobe1976/android_packages_apps_Contacts" remote="git" revision="5.0" />
   <project path="packages/apps/ContactsCommon" name="nobe1976/android_packages_apps_ContactsCommon" remote="git" revision="5.0" />
   <project path="packages/apps/Dialer" name="nobe1976/android_packages_apps_Dialer" remote="git" revision="5.0" />
-  <project path="packages/apps/FileManager" name="nobe1976/packages_apps_FileManager" remote="git" revision="5.0"/>
   <project path="packages/apps/InCallUI" name="nobe1976/android_packages_apps_InCallUI" remote="git" revision="5.0" />
   <project path="packages/apps/PhoneCommon" name="nobe1976/android_packages_apps_PhoneCommon" remote="git" revision="5.0" />
-  <project path="packages/apps/Settings" name="nobe1976/android_packages_apps_Settings" remote="git" revision="5.0" />
+  <project path="packages/apps/Settings" name="nobe1976/android_packages_apps_Settings" remote="git" revision="lp-Dark" />
   <project path="packages/services/Telephony" name="nobe1976/android_packages_services_Telephony" remote="git" revision="5.0" />
+  <project path="vendor/aod" name="nobe1976/android_vendor_aod" remote="git" revision="lp-lte" />
 </manifest>
