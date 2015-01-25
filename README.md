@@ -23,12 +23,16 @@ Next curl in the device tree
 ============================
 lge_vs980
 ---------
-$ mkdir -p .repo/local_manifests && curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
+$ curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
+
+shamu
+---------
+$ curl -L -o .repo/local_manifests/Shamu_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/Shamu_local_manifest.xml
 
 
 Then Watch it Fly
 =================
 
-$ repo --trace sync -c -d -j8<----"Feel Free to Speed that up if you need to"
+$ repo --trace sync -c -d -j16<----"Feel Free to Speed that up if you need to"
 
 
