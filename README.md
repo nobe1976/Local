@@ -25,6 +25,10 @@ lge_vs980
 ---------
 $ curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
 
+lge_vs980
+---------
+$ curl -L -o .repo/local_manifests/Moto-local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/Moto-local_manifest.xml
+
 shamu
 ---------
 $ curl -L -o .repo/local_manifests/Shamu_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/Shamu_local_manifest.xml
