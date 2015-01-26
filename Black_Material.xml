@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="git" 
+          fetch="git://github.com/"/>
+
   <!--remove-->
   <remove-project name="AndroidOpenDevelopment/android_frameworks_base" />
   <remove-project name="AndroidOpenDevelopment/android_frameworks_opt_telephony" />
