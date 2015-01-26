@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="git" 
-          fetch="git://github.com/"/>
 
   <project name="nobe1976/android_device_lge_vs980" path="device/lge/vs980" remote="git" revision="LP"/>
   <project name="nobe1976/android_device_lge_g2-common" path="device/lge/g2-common" remote="git" revision="LP"/>
