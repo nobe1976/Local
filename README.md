@@ -15,8 +15,6 @@ AOD
 ---
 $ repo init -u git://github.com/AndroidOpenDevelopment/android.git -b lp
 
-$ repo --trace sync -c -d -j16
-
 Then:
 -------------------------
 $ mkdir -p .repo/local_manifests
