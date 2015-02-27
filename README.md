@@ -18,9 +18,12 @@ $ repo init -u git://github.com/AndroidOpenDevelopment/android.git -b lp
 $ repo --trace sync -c -d -j16
 
 Then:
+-------------------------
+$ mkdir -p .repo/local_manifests
+
 Curl in the Dark Material
 -------------------------
-$ mkdir -p .repo/local_manifests && curl -L -o .repo/local_manifests/Black_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Black_Material.xml
+$ curl -L -o .repo/local_manifests/Black_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Black_Material.xml
 
 Next curl in the device tree
 ============================
@@ -28,7 +31,7 @@ lge_vs980
 ---------
 $ curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
 
-lge_vs980
+MSM8960
 ---------
 $ curl -L -o .repo/local_manifests/Moto-local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/Moto-local_manifest.xml
 
