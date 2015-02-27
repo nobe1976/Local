@@ -25,6 +25,10 @@ Curl in the Dark Material
 -------------------------
 $ curl -L -o .repo/local_manifests/Black_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Black_Material.xml
 
+Curl in the Icarus Material
+-------------------------
+$ curl -L -o .repo/local_manifests/Icarus_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Icarus_Material.xml
+
 Next curl in the device tree
 ============================
 lge_vs980
