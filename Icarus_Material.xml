@@ -5,7 +5,6 @@
 
   <!--remove-->
   <remove-project name="AndroidOpenDevelopment/android_build" />
-  <remove-project name="platform/development" />
   <remove-project name="AndroidOpenDevelopment/android_vendor_aod" />
   <remove-project name="AndroidOpenDevelopment/android_frameworks_base" />
   <remove-project name="AndroidOpenDevelopment/android_frameworks_opt_telephony" />
@@ -22,7 +21,6 @@
   <!--packages-->
   <project path="build" name="nobe1976/android_build" remote="git" revision="lp" />
   <project path="vendor/aod" name="nobe1976/android_vendor_aod" remote="git" revision="lp" />
-  <project path="development" name="TeamLiteSpeed/android_development" remote="git" revision="lp" />
   <project path="frameworks/base" name="TeamLiteSpeed/android_frameworks_base" remote="git" revision="lp-black" />
   <project path="frameworks/opt/telephony" name="TeamLiteSpeed/android_frameworks_opt_telephony" remote="git" revision="lp" />
   <project path="packages/apps/Contacts" name="nobe1976/android_packages_apps_Contacts" remote="git" revision="5.0" />
