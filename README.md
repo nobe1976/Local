@@ -21,7 +21,7 @@ $ mkdir -p .repo/local_manifests
 
 Curl in the Dark Material
 -------------------------
-$ curl -L -o .repo/local_manifests/Black_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Black_Material.xml
+$ curl -L -o .repo/local_manifests/Dark_Material.xml -O -L https://raw.github.com/nobe1976/Local/master/Dark_Material.xml
 
 Curl in the Icarus Material
 -------------------------
