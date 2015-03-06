@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="nobe" 
+          fetch="git://github.com/"/>
+
+  <remote name="TLS" 
+          fetch="git://github.com/"/>
+
+  <!--remove-->
+  <remove-project name="AndroidOpenDevelopment/android_build" />
+  <remove-project name="AndroidOpenDevelopment/android_vendor_aod" />
+  <remove-project name="AndroidOpenDevelopment/android_frameworks_base" />
+  <remove-project name="AndroidOpenDevelopment/android_frameworks_native" />
+  <remove-project name="AndroidOpenDevelopment/android_frameworks_opt_telephony" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_Contacts" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_ContactsCommon" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_Dialer" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_InCallUI" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_PhoneCommon" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_apps_Settings" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_services_Telephony" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_services_Telecomm" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_inputmethods_LatinIME" />
+  <remove-project name="AndroidOpenDevelopment/android_packages_providers_MediaProvider" />
+
+  <!--packages-->
+  <project path="build" name="nobe1976/android_build" remote="nobe" revision="lp" />
+  <project path="vendor/aod" name="nobe1976/android_vendor_aod" remote="nobe" revision="lp" />
+  <project path="frameworks/base" name="nobe1976/android_frameworks_base" remote="nobe" revision="lp-black" />
+  <project path="packages/apps/Settings" name="nobe1976/android_packages_apps_Settings" remote="nobe" revision="lp-black" />
+  <!--Icarus stuff-->
+  <project path="frameworks/native" name="TeamLiteSpeed/android_frameworks_native" remote="TLS" revision="lp" />
+  <project path="frameworks/opt/telephony" name="TeamLiteSpeed/android_frameworks_opt_telephony" remote="TLS" revision="lp" />
+  <project path="packages/apps/Contacts" name="TeamLiteSpeed/android_packages_apps_Contacts" remote="TLS" revision="lp-black" />
+  <project path="packages/apps/ContactsCommon" name="TeamLiteSpeed/android_packages_apps_ContactsCommon" remote="TLS" revision="lp-black" />
+  <project path="packages/apps/Dialer" name="TeamLiteSpeed/android_packages_apps_Dialer" remote="TLS" revision="lp-black" />
+  <project path="packages/apps/InCallUI" name="TeamLiteSpeed/android_packages_apps_InCallUI" remote="TLS" revision="lp-black" />
+  <project path="packages/apps/PhoneCommon" name="TeamLiteSpeed/android_packages_apps_PhoneCommon" remote="TLS" revision="lp-black" />
+  <project path="packages/services/Telephony" name="TeamLiteSpeed/android_packages_services_Telephony" remote="TLS" revision="lp-black" />
+  <project path="packages/services/Telecomm" name="TeamLiteSpeed/android_packages_services_Telecomm" remote="TLS" revision="lp" />
+  <project path="packages/inputmethods/LatinIME" name="TeamLiteSpeed/android_packages_inputmethods_LatinIME" remote="TLS" revision="lp-black" />
+  <project path="packages/providers/MediaProvider" name="TeamLiteSpeed/android_packages_providers_MediaProvider" remote="TLS" revision="lp-black" />
+</manifest>
