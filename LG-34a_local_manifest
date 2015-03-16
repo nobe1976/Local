@@ -2,9 +2,8 @@
 <manifest>
   <remote name="LG" 
           fetch="git://github.com/"/>
-
-  <project name="nobe1976/android_device_lge_vs980" path="device/lge/vs980" remote="LG" revision="cm-12.0-JPC"/>
-  <project name="nobe1976/android_device_lge_g2-common" path="device/lge/g2-common" remote="LG" revision="cm-12.0-JPC"/>
+  <project name="JackpotClavin/android_device_lge_vs980" path="device/lge/vs980" remote="LG" revision="cm-12.0-JPC"/>
+  <project name="JackpotClavin/android_device_lge_g2-common" path="device/lge/g2-common" remote="LG" revision="cm-12.0-JPC"/>
   <project name="JackpotClavin/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="LG" revision="cm-12.0-JPC"/>
   <project name="JackpotClavin/proprietary_vendor_lge" path="vendor/lge" remote="LG" revision="cm-12.0-JPC"/>
   
