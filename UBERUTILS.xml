@@ -4,7 +4,7 @@
   <remote  name="UBER"
           fetch="git://github.com/"/>
     <!--remove-->
-  <remove-project= "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />       
+  <remove-project="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />       
           
   <!-- UberUtils -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="UBER" revision="lp" />
