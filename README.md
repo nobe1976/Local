@@ -33,6 +33,10 @@ lge_vs980
 ---------
 $ curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
 
+lge_vs980-39a
+---------
+$ curl -L -o .repo/local_manifests/LG-39a_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG-39a_local_manifest.xml
+
 MSM8960
 ---------
 $ curl -L -o .repo/local_manifests/Moto-local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/Moto-local_manifest.xml
