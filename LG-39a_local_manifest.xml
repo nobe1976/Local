@@ -2,9 +2,16 @@
 <manifest>
   <remote name="LG" 
           fetch="git://github.com/"/>
+
+  <!-- LG G2 Devices -->
   <project name="nobe1976/android_device_lge_vs980" path="device/lge/vs980" remote="LG" revision="cm-12.0-JPC"/>
   <project name="nobe1976/android_device_lge_g2-common" path="device/lge/g2-common" remote="LG" revision="cm-12.0-JPC"/>
   <project name="nobe1976/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="LG" revision="cm-12.0-JPC"/>
-  <project name="nobe1976/proprietary_vendor_lge" path="vendor/lge" remote="LG" revision="cm-12.0-JPC"/>
+  <project name="nobe1976/proprietary_vendor_lge" path="vendor/lge" remote="LG" revision="lollipop-caf"/>
+  <!-- LG G3 Devices -->
+  <project name="nobe1976/android_device_lge_vs985" path="device/lge/vs985" remote="LG" revision="lollipop-caf"/>
+  <project name="nobe1976/android_device_lge_d850" path="device/lge/d850" remote="LG" revision="lollipop-caf"/>
+  <project name="nobe1976/android_device_lge_g3-common" path="device/lge/g3-common" remote="LG" revision="lollipop-caf"/>
+  <project name="nobe1976/android_kernel_lge_g3" path="kernel/lge/g3" remote="LG" revision="lollipop-caf"/>
 
 </manifest>
