@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="nobe"
+           fetch="git://github.com/nobe1976/" />
+
+  <!-- Devices -->
+  <project path="device/lge/d800" name="android_device_lge_d800" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/d801" name="android_device_lge_d801" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/d802" name="android_device_lge_d802" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/d803" name="android_device_lge_d803" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/f320" name="android_device_lge_f320" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/l01f" name="android_device_lge_l01f" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/ls980" name="android_device_lge_ls980" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="nobe" revision="lp-5.1-DU" />
+  <!-- Kernel -->
+  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="nobe" revision="lp-5.1-DU"/>
+
+  <!-- Vendor -->
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="nobe" revision="lp-5.1-caf"/>
+</manifest>
