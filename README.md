@@ -31,7 +31,7 @@ Next curl in the device tree
 ============================
 lge_vs980
 ---------
-$ curl -L -o .repo/local_manifests/LG_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG_local_manifest.xml
+$ curl -L -o .repo/local_manifests/LG-5.1.1_local_manifest.xml -O -L https://raw.github.com/nobe1976/Local/master/LG-5.1.1_local_manifest.xml
 
 lge_vs980-39a
 ---------
