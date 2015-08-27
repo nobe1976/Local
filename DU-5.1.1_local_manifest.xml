@@ -4,14 +4,11 @@
   <remote name="nobe"
            fetch="git://github.com/nobe1976/" />
 
-  <remote name="Slim"
-           fetch="git://github.com/SlimRoms/" />
+  <remote name="dirty"
+           fetch="git://github.com/DirtyUnicorns/" />
 
   <!--remove-->
-  <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_gps" />
-  <remove-project name="android_device_qcom_sepolicy" />
-  <remove-project name="android_external_sepolicy" />
 
   <!-- Devices -->
   <project path="device/lge/d800" name="android_device_lge_d800" remote="nobe" revision="lp-5.1-DU"/>
@@ -22,25 +19,13 @@
   <project path="device/lge/ls980" name="android_device_lge_ls980" remote="nobe" revision="lp-5.1-DU"/>
   <project path="device/lge/vs980" name="android_device_lge_vs980" remote="nobe" revision="lp-5.1-DU"/>
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="nobe" revision="lp-5.1-DU"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="nobe" revision="lp-5.1-DU" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nobe" revision="lollipop-caf" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="nobe" revision="lollipop-caf" />
-
-  <!-- Slims G3 Devices -->
-  <project path="device/lge/d850" name="device_lge_d850" remote="Slim" revision="lp5.1"/>
-  <project path="device/lge/g3-common" name="device_lge_g3-common" remote="Slim" revision="lp5.1"/>
 
   <!-- Kernel -->
   <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="nobe" revision="lp-5.1-DU"/>
-  <project path="kernel/lge/g3" name="kernel_lge_g3" remote="Slim" revision="lp5.1"/>
 
-  <!-- Hardware -->
+  <!-- QCom Specifics -->
+  <project path="device/qcom/common" name="android_device_qcom-common" remote="dirty" revision="lollipop-caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nobe" revision="lollipop-caf"/>
-  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" remote="nobe" revision="lollipop-caf"/>
-  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="nobe" revision="lollipop-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" remote="nobe" revision="lollipop-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="nobe" revision="lollipop-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="nobe" revision="lollipop-caf-8974" />
 
   <!-- Vendor -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="nobe" revision="lp-5.1-caf"/>
