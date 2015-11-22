@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+           fetch="git://github.com/" />
+  
+  <!-- G2 Devices -->
+  <project path="device/lge/d800" name="nobe1976/android_device_lge_d800" remote="git" revision="m-caf"/>
+  <project path="device/lge/d801" name="nobe1976/android_device_lge_d801" remote="git" revision="m-caf"/>
+  <project path="device/lge/d802" name="nobe1976/android_device_lge_d802" remote="git" revision="m-caf"/>
+  <project path="device/lge/d803" name="nobe1976/android_device_lge_d803" remote="git" revision="m-caf"/>
+  <project path="device/lge/f320" name="nobe1976/android_device_lge_f320" remote="git" revision="m-caf"/>
+  <project path="device/lge/ls980" name="nobe1976/android_device_lge_ls980" remote="git" revision="m-caf"/>
+  <project path="device/lge/vs980" name="nobe1976/android_device_lge_vs980" remote="git" revision="m-caf"/>
+  <project path="device/lge/g2-common" name="nobe1976/android_device_lge_g2-common" remote="git" revision="m-caf"/>
+
+  <!-- G2 Kernel -->
+  <project path="kernel/lge/msm8974" name="nobe1976/android_kernel_lge_msm8974" remote="git" revision="m-caf"/>
+
+  <!-- Vendor -->
+  <project path="vendor/lge" name="nobe1976/proprietary_vendor_lge" remote="git" revision="m-caf"/>
+
+</manifest>
