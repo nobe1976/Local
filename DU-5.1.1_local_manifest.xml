@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="git"
+           fetch="git://github.com/" />
+           
   <remote name="nobe"
            fetch="git://github.com/nobe1976/" />
 
   <remote name="dirty"
            fetch="git://github.com/DirtyUnicorns/" />
+
+  <remote name="bitbucket"
+           fetch="https://bitbucket.org/" />
 
   <!--remove-->
   <remove-project name="android_hardware_qcom_gps" />
@@ -21,12 +27,12 @@
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="nobe" revision="lp-5.1-DU"/>
 
   <!-- Kernel -->
-  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="nobe" revision="lp-5.1-DU"/>
+  <project path="kernel/lge/msm8974" name="Euphoria-OS-Devices/android_kernel_lge_msm8974" remote="git" revision="lollipop"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="big_bum/linaro-arm-eabi-5.2-cortex-a15" remote="bitbucket" revision="master"/>
 
   <!-- QCom Specifics -->
   <project path="device/qcom/common" name="android_device_qcom-common" remote="dirty" revision="lollipop-caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nobe" revision="lollipop-caf"/>
-
   <!-- Vendor -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="nobe" revision="lp-5.1-caf"/>
 </manifest>
