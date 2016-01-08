@@ -18,6 +18,6 @@
   <project path="kernel/lge/msm8974" name="nobe1976/android_kernel_lge_msm8974" remote="git" revision="m-caf"/>
 
   <!-- Vendor -->
-  <project path="vendor/lge" name="nobe1976/proprietary_vendor_lge" remote="git" revision="m-caf"/>
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="git" revision="cm-13.0"/>
 
 </manifest>
