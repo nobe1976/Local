@@ -3,6 +3,9 @@
 
   <remote name="git"
            fetch="git://github.com/" />
+           
+  <!--remove-->
+  <remove-project name="android_device_qcom_common" />
   
   <!-- G2 Devices -->
   <project path="device/lge/d800" name="nobe1976/android_device_lge_d800" remote="git" revision="m-caf"/>
@@ -21,6 +24,7 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="git" revision="cm-13.0"/>
 
   <!-- Needed Repos -->
+  <project path="device/qcom/common" name="nobe1976/android_device_qcom_common" remote="git" revision="m-caf"/>
   <project path="external/boringssl-compat" name="nobe1976/external_boringssl-compat" remote="git" revision="m-caf"/>
   <project path="external/connectivity" name="nobe1976/android_external_connectivity" remote="git" revision="m-caf"/>
 </manifest>
