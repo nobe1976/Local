@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <remote  name="git"
+          fetch="https://github.com/" />
+
+  <!--remove-->
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_hardware_broadcom_libbt" />
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_packages_apps_Bluetooth" />
+  <remove-project name="android_system_bt" />
+
+  <project path="device/lge/d800" name="nasty007/android_device_lge_d800" remote="git" revision="m-caf" />
+  <project path="device/lge/d801" name="nasty007/android_device_lge_d801" remote="git" revision="m-caf" />
+  <project path="device/lge/d802" name="nobe1976/android_device_lge_d802" remote="git" revision="m-caf" />
+  <project path="device/lge/d803" name="nasty007/android_device_lge_d803" remote="git" revision="m-caf" />
+  <project path="device/lge/ls980" name="nasty007/android_device_lge_ls980" remote="git" revision="m-caf" />
+  <project path="device/lge/vs980" name="nasty007/android_device_lge_vs980" remote="git" revision="m-caf" />
+  <project path="device/lge/f320" name="nobe1976/android_device_lge_f320" remote="git" revision="m-caf" />
+  <project path="device/lge/g2-common" name="nobe1976/android_device_lge_g2-common" remote="git" revision="m-caf" />
+
+  <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="git" revision="test" />
+  <project path="packages/apps/Apollo" name="nobe1976/android_packages_apps_Apollo" remote="git" revision="m"/>
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="git" revision="cm-13.0" />
+
+  <project path="frameworks/base" name="nobe1976/android_frameworks_base" remote="git" revision="m-test" />
+  <project path="hardware/broadcom/libbt" name="nobe1976/android_hardware_broadcom_libbt" remote="git" revision="m-test" />
+  <project path="hardware/libhardware" name="nobe1976/android_hardware_libhardware" remote="git" revision="m-test" />
+  <project path="packages/apps/Bluetooth" name="nobe1976/android_packages_apps_Bluetooth" remote="git" revision="m-test" />
+  <project path="packages/apps/BluetoothExt" name="nobe1976/android_packages_apps_BluetoothExt" remote="git" revision="m-test" />
+  <project path="system/bt" name="nobe1976/android_system_bt" remote="git" revision="m-test" />
+
+</manifest>
