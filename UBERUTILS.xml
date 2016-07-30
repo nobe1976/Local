@@ -2,17 +2,15 @@
 <manifest>
 
   <remote  name="UBER"
-          fetch="git://github.com/"/>
-    <!--remove-->
-  <remove-project="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />       
+          fetch="https://bitbucket.org/UBERTC"/>
           
   <!-- UberUtils -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="UBER" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="UBER" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="UBER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERUTILS/linaro-arm-eabi-4.8" remote="UBER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="UBER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="UBERUTILS/arm-eabi-4.8" remote="UBER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="UBERUTILS/arm-eabi-4.9" remote="UBER" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="UBERUTILS/arm-eabi-4.10" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="UBER" revision="lp" />
+  <project path="prebuilts/UBER/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="UBER" revision="lp" />
+  <project path="prebuilts/UBER/arm-linux-androideabi-4.10" name="arm-linux-androideabi-4.10" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm-eabi-4.8-linaro" name="linaro-arm-eabi-4.8" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="UBER" revision="master" />
+  <project path="prebuilts/UBER/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="UBER" revision="master" />
   </manifest>
