@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="UBER"
+  <remote  name="ubertc"
           fetch="https://bitbucket.org/"/>
           
   <!-- UberUtils -->
-  <!-- arm-eabi-* -->
-  <project path="prebuilts/UBER/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/arm-eabi-5.2" name="UBERTC/arm-eabi-5.2" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/arm-eabi-6.0" name="arm-eabi-6.0" remote="UBER" revision="master" />
-  
+
   <!-- aarch64-linux-android-* -->
-  <project path="prebuilts/UBER/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/aarch64-linux-android-5.2-kernel" name="UBERTC/aarch64-linux-android-5.2-kernel" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/aarch64-linux-android-6.0-kernel" name="UBERTC/aarch64-linux-android-6.0-kernel" remote="UBER" revision="master" />
+  <project path="prebuilts/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="ubertc" revision="master"/>
+  <project path="prebuilts/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="ubertc" revision="master"/>
+  <project path="prebuilts/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="ubertc" revision="master"/>
+  <project path="prebuilts/aarch64-linux-android-6.0-kernel" name="UBERTC/aarch64-linux-android-6.0-kernel" remote="ubertc" revision="master"/>
 
   <!-- arm-linux-androideabi-* -->
-  <project path="prebuilts/UBER/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="UBER" revision="master" />
-  <project path="prebuilts/UBER/arm-linux-androideabi-5.2" name="UBERTC/arm-linux-androideabi-5.2" remote="UBER" revision="master" />
+  <project path="prebuilts/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="ubertc" revision="master"/>
+  <project path="prebuilts/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="ubertc" revision="master"/>
+  <project path="prebuilts/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="ubertc" revision="master"/>
   </manifest>
