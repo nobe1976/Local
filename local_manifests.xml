@@ -14,7 +14,6 @@
   <project path="device/lge/g2-common" name="nasty007/android_device_lge_g2-common" remote="git" revision="bt-test" />
 
   <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="git" revision="test" />
-  <project path="packages/apps/Apollo" name="nobe1976/android_packages_apps_Apollo" remote="git" revision="m"/>
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="git" revision="cm-13.0" />
 
   <!-- Needed Repos -->
